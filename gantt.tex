@@ -1,0 +1,35 @@
+% Provide a diagrammatic workplan of proposed project to demonstrate that your
+% team can deliver the stated aims in the available time.
+% This attachment cannot be used for any other purpose.
+%
+% Arial font size of 11pt, excluding text on diagrams and the use of
+% mathematical symbols; use single line spacing and standard character spacing;
+% have margins that are not less than 2cm;
+\documentclass[11pt]{article}
+
+% https://tex.stackexchange.com/questions/23957/how-to-set-font-to-arial-throughout-the-entire-document
+\usepackage{fontspec}
+\setmainfont{Arial}
+
+\usepackage[margin=2cm, landscape]{geometry}
+\usepackage{pgfgantt}
+
+\begin{document}
+
+\begin{ganttchart}[
+    vgrid,
+    x unit=7.5mm,
+    y unit chart=7mm,
+    y unit title=10mm,
+    time slot format=isodate,
+    time slot unit=month,
+    ]{2021-02-14}{2023-02-13}
+    \gantttitlecalendar{year, month=shortname} \\
+    \ganttbar[name=ft]{First task}{2021-05-01}{2021-09-03} \ganttnewline
+    \ganttlinkedbar{Task 2}{2021-07-01}{2022-04-06} \ganttnewline
+    \ganttmilestone[name=st]{Achieve greatness}{2022-05-01}{2022-09-03}
+    \ganttlink{ft}{st}
+
+\end{ganttchart}
+
+\end{document}
