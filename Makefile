@@ -1,4 +1,4 @@
-GANTT_FNAME=gantt.tex
+gantt: gantt.pdf
 
-gantt: $(GANTT_TEX)
-	xelatex $@
+%.pdf: %.tex
+	xelatex $<
