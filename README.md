@@ -10,16 +10,10 @@ We also have to provide the following documents as PDF attachments.  This list
 is directly from the guidance document above.
 
 | Attachment                 | Conditions |
-|----------------------------|------------|
-|Case for Support            | Applicants must use the template provided |
-|                            | A maximum of six sides of A4 (including   |
-|                            | references).                              |
-|----------------------------|-----------|
-|Capability to Deliver       | Applicants must use the template provided    |
-|                            | A maximum of two sides of A4 per application |
-|----------------------------|-----------|
+| -------------------------- | ---------- |
+| Case for Support           | Applicants must use the template provided. A maximum of six sides of A4 (including references) |
+| Capability to Deliver      | Applicants must use the template provided.  A maximum of two sides of A4 per application |
 |Gantt Chart                 | A maximum of one side of A4 |
-|----------------------------|-----------|
 |Justification for Resources | A maximum of two sides of A4 |
 
 Fields in Je-S document, again from document above:
