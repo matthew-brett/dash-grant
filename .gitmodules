@@ -1,0 +1,3 @@
+[submodule "eoi"]
+	path = eoi
+	url = git@github.com:matthew-brett/bk-innovation-scholars.git
