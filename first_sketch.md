@@ -14,7 +14,8 @@ urlcolor: blue
 We conceive data science very broadly, as a transformation in the role of code
 in data analysis.
 
-Thus conceived, data science is a fundamental skill for analyzing and understanding data that applies across all quantitative fields.
+Thus conceived, data science is a fundamental skill to analyze and understand
+data that applies across all quantitative fields.
 
 It is a fundamental skill for research.
 
@@ -121,7 +122,8 @@ Will will first build and refine two **core** courses.
 * **Reproducible and collaborative data science** (RCSDS) : use of standard OCP
   for substantial, collaborative data analysis.
 
-We will build on this foundation with connector courses that use the pedagogy and process from the core courses.  The connector courses will cover:
+We will build on this foundation with connector courses that use the pedagogy
+and process from the core courses.  The connector courses will cover:
 
 * Subject-specific applications and extensions of core courses.  For example,
   we will apply FDS and RCSDS methods for teaching computational social
@@ -143,9 +145,42 @@ machinery round these materials to foster collaboration and rapid iteration.
 
 The second is to build a community of teachers around these materials.
 
-In order to achieve both these aims, we will iterate rapidly, while teaching
-across a wide range of research and teaching experience.  We will start by
-teaching our materials and pedagogy to established teachers and researchers.
-If 
+To further both these aims, we will iterate rapidly, while teaching across
+a wide range of research and teaching experience.  We start by teaching our
+materials and pedagogy to established teachers and researchers, to build the
+community of contributors, introduce this wider conception of data science,
+show the pedagogy, and begin the process of training the trainers.
+
+We will continue this training, while using the experience and contribution
+from these courses to refine our first courses to selected post-graduate
+researchers.
+
+Next, we will recruit for full-semesters of open access to our core courses,
+while piloting our connector courses.
+
+* Feb - May 2021 : collate, curate and rewrite (prepare) existing materials for
+  core courses.
+* June 2021 : two iterations of two-day "train the trainer" course, introducing
+  topics from FDS and RCSDS.
+* July 2021 : start collaboration-time grant process.  Teachers apply for
+  contributions from our team in the form of two or more weeks of focused team
+  collaboration and contribution to connector courses or improvements to core
+  courses.
+* July 2021 : week-long summer camp form of pilot FDS course for junior researchers.
+* August 2021 : week-long form of pilot RCSDS course for junior researchers,
+  with prerequisites from prior coding experience or FDS course.
+* September - December 2021: prepare materials and machinery for longer form
+  blended FDS and RCSDS courses.  Prepare materials for short and long form
+  connector courses.
+* January - May 2022 : deliver first iteration of blended long-form FDS course.
+  Pilot blended components from connector courses.
+* June - August 2022: multiple iterations of two-day "train the trainer"
+  course, in the form of "roadshows" focused on particular areas or
+  universities, sponsored by local host.
+* September - December 2022: long-form blended versions of FDS; RCSDS, selected
+  connector courses.
+* January - February 2022: focus on collation and refinement of connector
+  courses.  Start repeat cycle of long-form FDS and RCSDS with wider range of
+  connector courses.
 
 ## References

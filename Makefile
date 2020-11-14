@@ -1,7 +1,7 @@
 # https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html
 
 DOCS=capability.pdf case_for_support.pdf justification.pdf gantt.pdf \
-	 short_pitch.pdf
+	 first_sketch.pdf
 BIB=dash.bib
 
 docs: $(DOCS)
@@ -10,7 +10,7 @@ docs: $(DOCS)
 	xelatex $<
 
 %.pdf: %.md $(BIB)
-	pandoc --filter pandoc-citeproc $< -o $@
+	pandoc --citeproc $< -o $@
 
 clean:
 	rm *.pdf
