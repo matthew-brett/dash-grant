@@ -406,3 +406,7 @@ We will record bugs, errors in documentation or desirable features using the usu
 We will set up a mailing list for the team members, and a Discourse forum for
 the project, to encourage questions and feedback from the widest possible
 range of teachers and students.
+
+<!---
+Two doctors in teaching staff.  Specific application to neuroscience.
+-->
