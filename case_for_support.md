@@ -283,6 +283,16 @@ Our first courses are aimed at leaders of research groups and teachers of statis
   multi-factor ANOVA designs, and extensions of ANOVA models.  The third will
   be a application of foundation methods to computational social science.
 
+We will build two additional resources:
+
+* A library of curated, processed and clearly licensed **datasets** for
+  teaching.  Each dataset will give detailed descriptions and / or copies of
+  original sources, along with a data license, any code to clean or refine the
+  data, and cleaned / refined versions suitable for teaching.  We have started
+  this work at <https://github.com/odsti/datasets>.
+* A private library of exercises with solutions, available to teachers on
+  request.  We have a seed repository for this available privately on Github.
+
 [^cfd2020]: <https://matthew-brett.github.io/cfd2020>
 [^data8]: <https://www.inferentialthinking.com>
 
@@ -294,6 +304,50 @@ you take to ensure diversity and inclusion? How will you ensure the long-term
 sustainability of the training resources?  ~1 page.
 -->
 
+We have two target audiences for our work.  The first is teachers.  The second
+is junior researchers.
+
+We need to recruit teachers in order to make our open-source model work to its
+maximum effect.  When teachers use our material to teach, they improve our
+work in two ways.  They find errors, poor documentation or inefficiency in our
+materials, and our tools to deploy courses.  Some teachers will want to adapt
+our materials, and therefore, improve them or extend them to new fields. A key
+strategy to recruit teachers is lowering the barrier to using our materials as
+far as we can, by iterating on course materials and deployment procedures. We will run regular two-day workshops, as above to introduce the pedagogy and train teachers on using these materials.  In the second year of the grant we plan to run multiple workshops hosted by different local groups, to build personal connections and expand the range of teachers who have seen our material.  By making all our material, deployments, and datasets available under free open licenses, we hope to attract other groups who are teaching in similar ways, including others working on this same grant call.   We would be delighted if we made other groups in this grant call better able to succeed in their data science training, by using our work.
+
+The end goal of this grant is to improve the training of researchers, and to
+do this, we need to recruit students.  We believe that reproducible data
+science is a foundational skill and tool for learning, so we want to reach as
+wide an audience as we can.  In particular, we want to make sure that we reach
+far beyond the subset of researchers who consider themselves to be technical,
+and who already have some experience of code.  We aim to do this by reaching
+a wide range of their teachers, with the strategy above.  We will, in all our
+foundation courses, make it clear that the courses are specifically designed
+for those with no prior experience of programming.  When we have built
+sufficient momentum to have a large number of subscribers for our courses, we
+will start a system of sponsoring and supporting groups that often do not have
+such training, by giving them preference in course places, and making sure we
+allocate staff time for extra support.  In particular, for some fields, we may
+well find that women apply in lower proportions than would be representative
+of junior researchers in the field.  We will iterate to find good ways
+to reaching out to under-represented groups to encourage them to participate.
+
+Our primary interest in this proposal is building a community that can
+continue to maintain and extend the materials we seed from this grant. As well
+as the steps above, to recruit teachers to this work, we fully intend to use
+these materials in our own teaching, to undergraduates and to masters
+students, in teaching time outside the funding for this grant.  By doing this
+we aim to further improve the process for building and deploying these
+materials, and therefore, make them more useful to others.
+
+Our proposal includes funding for a post-doctoral fellow.  Our primary
+intention here is to train the post-doc in building and using these teaching
+methods.  They will also get experience of teaching other teachers.  We hope
+that this post will evolve into a permanent post that may involve both
+teaching and research, in either of our two main applicant groups, or
+elsewhere.  We hope this teacher will continue to support and expand the
+community.
+
 ## Value and Impact
 
 <!---
@@ -302,6 +356,32 @@ added value over existing resources? How will you measure success?  ~0.5
 pages.
 -->
 
+Our resources fall into two broad categories: instructor time and development
+/ consulting resources.  We have chosen our instructor resources to provide
+substantial time from the very small number of teachers who have extensive
+experience of teaching data science to life-scientists.  By doing this, we
+hope to seed a community that can build and expand on this teaching
+experience, that is currently very rare.  We have also selected teachers who
+have extensive experience of running distance learning courses in
+life-sciences, to guide our use of learning environments, and improve our
+interactions with students.  In this way we hope to make the best possible
+combination of experience to build balanced, well designed courses in this new
+field.
+
+Our development and consulting resources are to support the community of
+contribution.  To attract our fellow teachers, we have to make it as easy as
+possible to deploy courses, and to use and edit our materials.   We have to
+support common ownership, and to do this, we need to make sure we have vendor
+independence, and that the expertise needed to deploy courses is within the
+range of the largest number of teaching groups.
+
+We will measure our success by: the number of teachers that we recruit to use
+our materials; the number of teachers who interact with the community to raise
+issues or improve documentation; the number of teachers who contribute new or
+improved materials; the number of students applying for our summer and
+semester courses; the performance of students in assessments and final
+projects.
+
 ## Team & Management
 
 <!---
@@ -309,3 +389,20 @@ How will you manage the project? Please include details regarding project
 governance, and approach to community input/feedback. You do not need to
 duplicate information captured in the Capability to Deliver. ~0.5 pages.
 -->
+
+Matthew Brett (MB) will lead the project.  All the co-PIs will form a board,
+to which MB will report every six months, in an all-hands day-long review
+meeting. During the project we will form working groups for each iteration of
+the courses we deploy.  These will typically be two teachers and two
+reviewers, where at least one team member will have development expertise in
+order to refine working process for building and deploying materials, and
+feeding back to the development consultant team. For four weeks prior to the
+course to one week following we will have a weekly short review meeting, and
+thrice weekly 30 minute stand-up meetings to feed back on progress and
+obstacles.
+
+We will record bugs, errors in documentation or desirable features using the usual Github / version control features.
+
+We will set up a mailing list for the team members, and a Discourse forum for
+the project, to encourage questions and feedback from the widest possible
+range of teachers and students.
