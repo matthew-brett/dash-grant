@@ -204,7 +204,88 @@ simple to build and deploy these teaching materials.  This should be possible
 using automation with scripts, and ideally, deployment should be part of the
 testing process of every contribution (continuous integration).
 
-**Objectives**:  This proposal focuses on the central problem of seeding and growing a community of contribution.
+**Objectives**: We will seed and grow the community of contribution by
+applying the open-source methods we describe above.   By the end of the grant
+period, we will aim to have the following courses tested, built and available,
+with fully open licenses for all code and materials, and vendor independent
+deployment mechanisms. These courses will use examples across the
+life-sciences to show the generality of the methods, and engage learners from
+different fields.
+
+Our strategy is to start rapid iteration, and use this iteration to discover
+the tools we need to improve our ability to work with each other, and
+therefore, share work, and working process.  We will iterate on course
+deployment, starting with manual deployment using existing procedures, and
+working to progressively streamline and automate deployment, so it will become
+possible for new teachers to use our deployment methods with minimal support.
+
+Our first courses are aimed at leaders of research groups and teachers of statistics, to pilot our materials and to recruit fellow researchers and teachers to develop the courses and materials.
+
+* A blended learning "train-the-trainer" introduction to code-as-analysis and
+  code-to-learn.  We will target this course at faculty leading research
+  groups and teachers of data analysis / statistics across fields in the
+  health and life-sciences.  It will introduce faculty to the code-first
+  code-to-learn approach to data analysis teaching, and to the interactive
+  coding machinery that students use.  The aim of the course is to show the
+  faculty how such teaching approaches work, and give of sketch of how they
+  can be effective in introducing students to code, and teaching the
+  fundamental ideas of data analysis, statistics and machine learning.  As
+  with our courses for junior faculty (below), these courses have no
+  requirements for previous experience with code, advanced maths, or
+  confidence in traditional statistics.  We will show participants how to interact with our community to use and modify our materials.
+* A similar "train-the-trainer" course introducing code-for-reproducibility.
+  We target this course to faculty leading research groups that have some
+  experience of using code for data analysis and supervising students doing
+  the same.  The course shows the standard methods behind OCP, how these can
+  be taught effectively to junior and senior researchers, and their power in
+  improving efficiency, accuracy and reproducibility.  As for the course above, we will show participants how to use and improve our materials.
+* A "Foundations of data science" blended learning summer school course,
+  designed for a intensive two-week / 10 day course.  The course teaches
+  code-as-analysis and code-to-learn.  It has no requirements for prior
+  experience of coding, and minimal requirements for mathematics.  Some memory
+  of GCSE level maths should be enough.  We introduce basic concepts in data
+  analysis code and sampling, such as variables, for-loops, arrays, data
+  tables, and plots.  There are frequent guided exercises in the form of
+  computational notebooks running in the browser, within the learning
+  environment.  We develop statistical inference with simulation, resampling,
+  and permutation tests.  We sketch the use of bootstrap for confidence
+  intervals.  Seed materials start with our existing data science courses
+  [^cfd2020], inspired in turn by Berkeley's foundation course [^data8].
+* A code-for-reproducibility two-week / 10 days course, targeted at
+  researchers with some experience of coding for data analysis. This course is
+  live, but can be online. We cover standard OCP including version control,
+  code and data organization, data verification, code review, contribution
+  / issue tracking, and continuous integration.  The second course week is
+  shared between continuing teaching and group collaboration on a substantial
+  reproducible analysis project using OCP.  For this course, students do not
+  use the interactive notebook, but switch to OCP tools such as text editors
+  and the command line.  We seed this course on pedagogy and materials from
+  our initial Berkeley course [@millman2018rcsds].
+* A semester-long version of the "Foundations of data science" course, using
+  similar pedagogy to the summer course. In addition to the topics for the
+  summer course, we cover line fitting for regression and correlation using
+  numerical optimization, multiple regression, confidence intervals using the
+  bootstrap, an introduction to Bayesian analysis, and basic machine
+  learning.
+* A semester-long version of the code-for-reproducibility course. Expanding on
+  the summer course, we put more weight on training in tools for increasing
+  analysis and coding efficiency, such as the command line, and text editors,
+  as well as automated tools for testing and analysis such as scripting and
+  dependency tracking.  The final project involves a more substantial, more
+  open-ended data analysis on topics chosen by the group, and we use
+  code-to-learn methods to cover concepts related to the specific data analysis topic.
+* Three half-semester "connector" courses, where the foundation course in
+  either version is a prerequisite.  These courses use the same pedagogy as
+  the foundation course, but expand on foundation content into specific fields
+  or applications.  We plan three of these courses.  The first is an course on
+  probability, starting with simulation, and developing more mathematical
+  understanding.  The second is an extended treatment of statistical analysis,
+  with a basis in resampling.  It will cover multiple hypothesis testing,
+  multi-factor ANOVA designs, and extensions of ANOVA models.  The third will
+  be a application of foundation methods to computational social science.
+
+[^cfd2020]: <https://matthew-brett.github.io/cfd2020>
+[^data8]: <https://www.inferentialthinking.com>
 
 ## Strategy
 
