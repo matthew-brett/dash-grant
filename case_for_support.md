@@ -100,19 +100,18 @@ the most fruitful foundation for teaching the central ideas of statistical
 inference and prediction.  Neither is this a new insight; teachers of
 statistics have been making this case for many years.  The mathematical
 formulation that generations of students have suffered was necessary because
-we needed to simplify calculations for lack of computing power;
-@cobb2007introductory phrases this as "mathematics as computational engine".
-Now we have an abundance of computing power, we can use much simpler
-resampling algorithms that are easy to express in code: "computation as
-computational engine".  This gives students a deeper understanding of the
-underlying ideas of statistical inference. It also makes it natural to
-progress from standard statistical inference to machine learning and
-prediction.
+we needed to simplify calculations for lack of computing power; "mathematics
+as computational engine" [@cobb2007introductory]. Now we have an abundance of
+computing power, we can use much simpler resampling algorithms that are easy
+to express in code: "computation as computational engine".  This gives
+students a deeper understanding of the underlying ideas of statistical
+inference. It also makes it natural to progress from standard statistical
+inference to machine learning and prediction.
 
 Data science teaching therefore contains three fundamental ideas:
 
-1. **code-as-analysis**; the recognition of the central role of code in
-   expression the algorithms of practical data analysis;
+1. **code-as-analysis**; the recognition of the central role of code to
+   express algorithms of practical data analysis;
 1. **code-to-learn**; in contrast to the approach where "coding" is an
    optional additional skill --- "learning to code" --- "code-to-learn" uses
    code as the basis to explain the algorithms of inference and prediction.
