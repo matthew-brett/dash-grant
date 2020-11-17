@@ -215,13 +215,14 @@ applying open-source methods and process.  Community and process develop by
 shared work, and reflection on that work.  We will use rapid iteration to
 support that process.
 
-We plan three *course types*, listed below, and four course *versions*.  For
-quick iteration, and maximum flexibility, we will deliver each course type in
-each version. These are: two-day introductory workshop (2DWS); two-week summer
-school (2WSS); 10 week full semester course (10WFSC); a full video and live
-online blended version of the 10 week course, within a VLE (10WBFSC). We will
-start with the 2DWS version of the course, then build the 2WSS, then the
-10WFSC and finally the 10WBFSC.  See the Gantt chart for timelines.
+We plan three *course types*, listed below, and three course *versions*.  For
+quick iteration, and maximum flexibility, we will deliver the core course
+types in each version. The versions are: two-day introductory workshop (2DWS);
+two-week summer school (2WSS); 10 week full semester course (10WFSC). The last
+will be a full video and live online blended course, within a VLE We will
+start with the 2DWS version of the core courses, then build the 2WSS, then the
+10WFSC and finally the 10WBFSC.  See the Gantt chart for timelines. We omit
+the 2DWS versions for the connector courses (see below).
 
 Our course *types* are:
 
