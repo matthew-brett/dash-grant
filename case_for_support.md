@@ -220,9 +220,9 @@ quick iteration, and maximum flexibility, we will deliver the core course
 types in each version. The versions are: two-day introductory workshop (2DWS);
 two-week summer school (2WSS); 10 week full semester course (10WFSC). The last
 will be a full video and live online blended course, within a VLE We will
-start with the 2DWS version of the core courses, then build the 2WSS, then the
-10WFSC and finally the 10WBFSC.  See the Gantt chart for timelines. We omit
-the 2DWS versions for the connector courses (see below).
+start with the 2DWS version of the core courses, then build the 2WSS, and
+finally the 10WFSC.  See the Gantt chart for timelines. We omit the 2DWS
+versions for the connector courses (see below).
 
 Our course *types* are:
 
@@ -338,12 +338,12 @@ procedures, and making them fully open for modification and re-use.
 
 Our end goal is to teach reproducible data science to researchers.
 Outreach to research group leaders is important for guiding research culture,
-but also in guiding lab members to the 2WSS, 10WFSC and 10WBFSC versions of
-our courses.  All our courses will be open to any interested researcher.  As
-we expand our range of 2DWS, we expect our courses will be better known, and
-we will recruit a wider range of students, from a larger number of
-universities. Our online textbooks and blended learning videos will be freely
-available, and we will use these to attract more students.
+but also in guiding lab members to the 2WSS, and 10WFSC versions of our
+courses.  All our courses will be open to any interested researcher.  As we
+expand our range of 2DWS, we expect our courses will be better known, and we
+will recruit a wider range of students, from a larger number of universities.
+Our online textbooks and blended learning videos will be freely available, and
+we will use these to attract more students.
 
 We believe that reproducible data science is the foundation for all
 sound data analysis, so we want to teach it to all researchers, not just those
@@ -353,7 +353,7 @@ or interest in programming.  We will monitor our recruitment, to make sure we
 are getting a representative cross-section of researchers, and adjust
 recruitment and in-course support if we find we are getting a lower proportion
 of applicants from under-represented groups than expected for the field.  It
-is an intended effect of our 10WBFSC that any student, anywhere, can take our
+is an intended effect of our 10WFSC that any student, anywhere, can take our
 course online.
 
 Our proposal includes funding for a post-doctoral fellow.  Our primary
