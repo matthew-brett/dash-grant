@@ -20,21 +20,6 @@ Fields in Je-S document, again from document above:
 
 *   **Project title** (150-character limit); This should reflect the aim of the
     proposal.
-*   **Start date and duration**: Projects awarded are expected to start by 14
-    February 2021. This is flexible, but applicants wishing to start their
-    project significantly after February 2021 should discuss their plans with
-    the Data Science Training team (DataScienceTraining@ukri.org) prior to
-    applying.
-
-    The duration may be up to a maximum of 24 months, dependent on the project
-    requirements. Once a grant has been issued, grant holders are required to
-    make every effort to start by the agreed date and to terminate the project
-    in the stated duration.
-*   **Applicants, including investigators**; Applicant to be entered under the
-    ‘Principal Investigator’ heading. Partner(s) to be entered under the
-    ‘Co-Investigator’ heading.
-*   **Objectives** (4000-character limit); List the main objectives of your
-    proposal in order of priority.
 *   **Summary** (4000-character limit); Provide a plain English (layperson’s)
     summary of the proposed work, explaining the aims and objectives of the
     proposal, rational for the proposed project and the potential applications
@@ -51,9 +36,3 @@ Fields in Je-S document, again from document above:
     This summary, including your name and institution, will be published on
     publicly available sites including Gateway to Research should the project
     be funded. Please ensure confidential information is not included.
-*   **Resource Summary**; Proposals will be assessed on the quality of the
-    training and value for money in terms of the resources requested,
-    including whether or not the funds requested are essential and adequate
-    for the work and justified by the importance and potential of the proposed
-    training. Costs sought should be specified as far as possible in the
-    proposal.
