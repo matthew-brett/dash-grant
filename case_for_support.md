@@ -74,10 +74,8 @@ What is the scientific focus, aims and objectives of the proposal? How does it
 address current training needs and the broader landscape? ~ 4 pages.
 -->
 
-We will form a group of experienced data science teachers and developers to
-promote open methods and materials in data science.  The community, materials
-and process that result will accelerate our ability to teach reproducible data
-science, and form the basis for a wide and lasting collaboration.
+We ask for support to use open-source methods to form a sustainable community,
+materials and process for collaboration on teaching reproducible data science.
 
 **Background**: Data science is an approach to data analysis with a foundation
 in code and algorithms [^cfd-what-is].  It is
