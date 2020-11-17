@@ -343,10 +343,8 @@ We have two target audiences for our work.  The first is teachers.  The second
 is junior researchers (PhD students and post-docs).
 
 We need to recruit teachers in order to make our open-source model work to its
-maximum effect.  New teachers using our work will find errors, poor
-documentation or inefficiency in our materials, and our tools to deploy
-courses.  Some teachers will want to adapt our materials, and therefore,
-improve them or extend them to new fields.
+maximum effect. Teachers will test our material, documentation, and deployment
+tools; some will adapt, improve and extend our materials.
 
 In order to recruit the broadest range of teachers, we will run local versions
 of each version of our 2DWS courses that rotate between the four home centres
