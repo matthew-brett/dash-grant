@@ -77,94 +77,72 @@ address current training needs and the broader landscape? ~ 4 pages.
 We will form a group of experienced data science teachers and developers to
 promote open methods and materials in data science.  The community, materials
 and process that result will accelerate our ability to teach reproducible data
-science.
+science, and form the basis for a wide and lasting collaboration.
 
 **Background**: Data science is an approach to data analysis with a foundation
 in code and algorithms [^cfd-what-is].  It is not new; rather it is
-a recognition of the central role that code and computing has played in data
-analysis since computing became widely available [@donoho201550].  Data
-science requires that we take code seriously.  "Coding" is not a useful
-additional skill for advanced research, but the foundation for all modern
-quantitative data analysis.  Thus understood, coding is comparable to bench
-skills and lab notebooks in wet-lab research.  Every wet-lab researcher must
-learn these skills; every researcher doing quantitative data analysis must
-learn code for data analysis, and they must learn organized process for using
-code and data.  The consequences of not doing so are the same as those for the
-poorly trained wet-lab researcher; a poorly trained data analyst will be
-disabled by confusion, inefficiency and error.  This is the central message of
-computational reproducibility [@donoho2010invitation]; if we do not take code
+a recognition of the central role that code has played in data analysis since
+computing became widely available [@donoho201550]. The insight of data science
+is that code is comparable to bench skills and lab notebooks in wet-lab
+research; every researcher doing quantitative data analysis must learn code
+for data analysis, and they must learn organized process for using code and
+data. The consequences of not doing so are the same as those for the poorly
+trained wet-lab researcher; confusion, inefficiency and error. This is the
+central message of computational reproducibility; if we do not take code
 seriously, our work will be full of error, and poor organization means that
-the analysis is hard to share and difficult to extend. This leads to enormous
-waste in wrong results and repeated work.
+analysis is hard to share and difficult to extend. This leads to great waste
+in wrong results and repeated work.
 
 [^cfd-what-is]:
     <https://matthew-brett.github.io/cfd2020/intro/what-is-data-science.html>
 
-Education in data science has revealed another fundamental idea; that code is
-the most fruitful foundation for teaching the central ideas of statistical
-inference and prediction.  Neither is this a new insight; teachers of
-statistics have been making this case for many years.  The mathematical
-formulation that generations of students have suffered was necessary because
-we needed to simplify calculations for lack of computing power; "mathematics
-as computational engine" [@cobb2007introductory]. Now we have an abundance of
-computing power, we can use much simpler resampling algorithms that are easy
-to express in code: "computation as computational engine".  This gives
-students a deeper understanding of the underlying ideas of statistical
-inference. It also makes it natural to progress from standard statistical
-inference to machine learning and prediction.
+Another insight of data science testing is that code is the most fruitful
+foundation for teaching the central ideas of statistical inference and
+prediction.  The mathematical formulation that generations of students have
+suffered was necessary because we needed maths to simplify calculations for
+lack of computing power; "mathematics as computational engine"
+[@cobb2007introductory]. With an abundance of computing power, we can use much
+simpler resampling algorithms that are easy to express in code, and give
+deeper understanding: "computation as computational engine".
 
 Data science teaching therefore contains three fundamental ideas:
 
-1. **code-as-analysis**; the recognition of the central role of code to
-   express algorithms of practical data analysis;
-1. **code-to-learn**; in contrast to the approach where "coding" is an
-   optional additional skill --- "learning to code" --- "code-to-learn" uses
-   code as the basis to explain the algorithms of inference and prediction.
-1. **code-for-reproducibility**; taking code seriously must involve careful
-   process in the organization and sharing of code and data.  Learning to use
-   code in this way leads to reproducibility as a natural product of organized
-   working process --- **reproducibility by design**.
+1. **code-as-analysis**; code is the correct and essential tool with which to
+   express algorithms of practical data analysis.  This kind of teaching
+   approaches code from the point of view of data; students start early with
+   fundamental objects for data analysis such as arrays and data tables, and
+   proceed to data selection and visualization.
+1. **code-to-learn**; the traditional approach to code is to teach
+   "programming" in a separate advanced course -- "learning-to-code". Data
+   science uses code as the basis to explain and implement the algorithms of
+   inference and prediction, including machine learning ("code-to-learn").
+1. **code-for-reproducibility**; taking code seriously involves careful
+   process in the organization and sharing of code and data --- organized
+   coding practice (OCP).  OCP leads to reproducibility as a natural product
+   of organized working process --- **reproducibility by design**. OCP has
+   great impact in increasing efficiency, reducing error and supporting
+   collaboration, and for these reasons, is all but universal in industry and
+   open-source. OCP includes version control; standardized data organization
+   and verification; code review; contribution and issue tracking; and
+   continuous integration testing.  Although typically considered advanced, we
+   have shown that we can teach these methods successfully to undergraduates
+   in a single-semester course [@millman2018rcsds].
 
-This teaching differs substantially from the traditional learning-to-code
-approach.  The data science method approaches code from the point of view of
-data; students start early with fundamental objects for data analysis such as
-arrays and data tables, and proceed to data selection and visualization.
-Inference comes from algorithms for simulation and resampling; we use
-numerical optimization instead of algebra for parameter fitting.  With this
-background it becomes natural to explain and implement simple machine learning
-and other prediction methods.  Students typically learn to code in
-a computational *notebook* in which the student and instructor combine text
-and interactive code to explain and implement the analysis.
-
-These methods represent a transformation in our ability to prepare researchers
-for real data analysis, to convey deep understanding of the underlying ideas.
-
-**Code-for-reproducibility** teaches organized coding practice (OCP). The
-components for OCP are all but universally accepted in industry and
-open-source: code version control; standardized data organization and
-verification; code review; contribution and issue tracking; and continuous
-integration testing.  We have shown that we can teach
-these methods to undergraduates in a single-semester course
-[@millman2018rcsds].  Our students used OCP to build substantial reproducible
-and collaborative project for an open-ended scientific data analysis.
-Although this teaching worked well, and we believe it to be by far the
-most effective basis for reproducible analysis, it continues to be extremely
-rare.
-
-**Need and challenge**: Data science teaching promises a huge increase in
-productivity and reproducibility in research - but there are very few teachers
-with enough experience and skills to use them, and even fewer who are yet in
-a position to build new courses.  It seems obvious that we will get further,
-more quickly, if this small community learns how to share work, but this is
-more difficult than it may seem. It is common for teachers to make their
-materials available for free online, but it is uncommon for other teachers to
-make substantial use of these materials.  It is not yet completely clear why
-this is, but we suspect there are many factors; teaching is often personal to
-the teacher, and particular to the class.  Even more so than for code, we
-nearly always want to modify materials, to improve them or take a different
-path through the subject.  We do not yet have an agreed framework for
-submitting edits to materials, or putting materials into a context in which
-they can be easily be re-used outside the course for which they were written.
+**Need and challenge**: Data science teaching promises great increase in
+research productivity and reproducibility --- but the field is very new, and
+there are very few teachers with enough experience and skills to use them, and
+even fewer who are yet in a position to build new courses.  It seems obvious
+that we will get further, more quickly, if this small community learns how to
+share work, but this is more difficult than it may seem. It is common for
+teachers to make their materials available for free online, but uncommon for
+other teachers to make substantial use of these materials.  It is not yet
+completely clear why this is, but one factor may be that university teaching
+is so personal to the teacher, and particular to the class.  Even more so than
+for code, we nearly always want to modify materials, to improve them or take a
+different path through the subject.  We do not yet have an agreed framework
+for submitting edits to materials, or putting materials into a context in
+which they can be easily be re-used outside the course for which they were
+written.
 
 **Approach**: Open-source *software* methods have been extraordinarily
 effective in allowing small groups of committed programmers to build software
@@ -176,13 +154,10 @@ quality and range, compared to traditional models of closed or effectively
 closed content in competing proprietary courses.
 
 We need to address the *challenge of sharing materials* by using these
-elements of open-source software development:
-
-* A committed community of user-contributors.
-* Clear process of contribution.
-* Common ownership of materials.
-* Complete vendor independence.
-* Rapid iteration of content and process.
+elements of open-source software development: A **committed community** of
+user-contributors; **Clear process** of contribution; **Common ownership** of
+materials; Complete **vendor independence**; **Rapid iteration** of content
+and process.
 
 A user-contributor is a teacher who is editing and adding to the teaching
 material, and using these materials to teach.  This is a fundamental rule in
@@ -244,12 +219,11 @@ support that process.
 
 We plan three *course types*, listed below, and four course *versions*.  For
 quick iteration, and maximum flexibility, we will deliver each course type in
-four versions: two-day introductory workshop (2DWS); two-week summer school
-(2WSS); 10 week full semester course (10WFSC); a full video and live online
-blended version of the 10 week course, within a VLE (10WBFSC). The
-progressively longer and more detailed course types support iteration; we will
-start with the 2DWS version of the course, proceed to the 2WSS, then to the
-10WFSC and finally to the 10BWFSC.
+each version. These are: two-day introductory workshop (2DWS); two-week summer
+school (2WSS); 10 week full semester course (10WFSC); a full video and live
+online blended version of the 10 week course, within a VLE (10WBFSC). We will
+start with the 2DWS version of the course, then build the 2WSS, then the
+10WFSC and finally the 10BWFSC.  See the Gantt chart for timelines.
 
 Our course *types* are:
 
@@ -309,9 +283,9 @@ version of the course that others can use and deploy.
 As we iterate, we will improve the automation and range of the course
 deployment. We will likely start with manual deployment of the course
 textbook, interactive notebook hosting and, later, the VLE, using existing
-procedures. We will work over the grant period to streamline and automate
-deployment. We intend to finish by making it simple for new teachers to use
-our deployment methods with minimal support.
+procedures. Over the grant period we will streamline and automate deployment.
+We intend to finish by making it simple for new teachers to use our deployment
+methods with minimal support.
 
 As part of our work building teaching materials for these courses, we will
 curate and extend two additional resources that we have found to be enormously
@@ -408,7 +382,7 @@ experience, that is currently very rare.  We have also selected teachers who
 have extensive experience of running distance learning courses in
 life-sciences, to guide our use of learning environments, and improve our
 interactions with students.  In this way we hope to make the best possible
-combination of experience to build balanced, well designed courses in this new
+combination of experience to build balanced, well-designed courses in this new
 field.
 
 Our development and consulting resources are to support the community of
@@ -422,14 +396,14 @@ We will measure our success by: the number of teachers that we recruit to use
 our materials; the number of teachers who interact with the community to raise
 issues or improve documentation; the number of teachers who contribute new or
 improved materials; the number of students applying for our summer and
-semester courses; the performance of students in assessments and final
-projects.
+semester courses; the diversity of our student body; and the performance of
+students in assessments and final projects.
 
 Our end ambition is that reproducible data science should become the
 foundation for data analysis teaching for all researchers, whether practicing
 or in training.   We plan to make these materials so compelling that they can
-form a foundation for first and second undergraduate year training in research
-methods and statistics.
+form a foundation for all first and second undergraduate year training in
+research methods and statistics.
 
 ## Team & Management
 
