@@ -15,24 +15,34 @@
 \usepackage{fontspec}
 \setmainfont{Arial}
 
-\usepackage[margin=2cm, landscape]{geometry}
+\usepackage[margin=2cm]{geometry}
 \usepackage{pgfgantt}
 
 \begin{document}
 
 \begin{ganttchart}[
     vgrid,
-    x unit=7.5mm,
+    x unit=5.5mm,
     y unit chart=7mm,
     y unit title=10mm,
     time slot format=isodate,
     time slot unit=month,
     ]{2021-02-14}{2023-02-13}
-    \gantttitlecalendar{year, month=shortname} \\
-    \ganttbar[name=ft]{First task}{2021-05-01}{2021-09-03} \ganttnewline
-    \ganttlinkedbar{Task 2}{2021-07-01}{2022-04-06} \ganttnewline
-    \ganttmilestone[name=st]{Achieve greatness}{2022-05-01}{2022-09-03}
-    \ganttlink{ft}{st}
+    \gantttitlecalendar{year, month} \\
+    \ganttbar[name=collate]{FoDS materials}{2021-02-14}{2023-02-13} \ganttnewline
+    \ganttbar[name=collate]{RDS materials}{2021-04-14}{2023-02-13} \ganttnewline
+    %\ganttlinkedbar{Task 2}{2021-07-01}{2022-04-06} \ganttnewline
+    \ganttbar{3x FoDS 2DWS}{2021-05-14}{2021-06-30} \ganttnewline
+    \ganttbar{3x RDS 2DWS}{2021-07-14}{2021-08-30} \ganttnewline
+    \ganttbar{FoDS 2WSS}{2021-09-06}{2021-09-17} \ganttnewline
+    \ganttbar{FoDS 10WFSC}{2022-01-31}{2022-04-07} \ganttnewline
+    \ganttbar{3x FoDS 2DWS}{2022-05-14}{2022-06-30} \ganttnewline
+    \ganttbar{RSS 2WSS}{2022-07-06}{2022-07-17} \ganttnewline
+    \ganttbar{FoDS 2WSS}{2022-07-06}{2022-07-17} \ganttnewline
+    \ganttbar{CC-Prob 2WSS}{2022-08-01}{2022-08-12} \ganttnewline
+    \ganttbar{CC-MV 2WSS}{2022-09-01}{2022-09-12} \ganttnewline
+    \ganttbar{CC-CSS 2WSS}{2022-09-18}{2022-09-30} \ganttnewline
+    % \ganttlink{st1}{st2}
 
 \end{ganttchart}
 
