@@ -126,24 +126,39 @@ inference, and network analysis, using Jupyter notebooks.  He will contribute
 to materials and teaching for main foundations course, and will lead the
 development of the computational social science connector course.
 
-**Federico Turkheimer** (15%) is Professor of Neuroimaging (Analysis & Statistics) at King’s College London (KCL). He has training in electronic engineering, Nuclear Medicine, and biostatistics (at NIH), and has worked at Cambridge and Imperial College.
+**Federico Turkheimer** (15%) is Professor of Neuroimaging (Analysis
+& Statistics) at King’s College London (KCL). He has training in electronic
+engineering, Nuclear Medicine, and biostatistics (at NIH), has worked at
+Cambridge and Imperial College and consults on quantitative methods for
+industry.  He studies models of brain function using statistical methods of
+imaging data (H-index 68). He has been teaching statistics for >20 years and
+has written a book "Statistics without equations". His current focus is the
+\>1000 student KCL neuroscience distance learning programme.  He will work on
+teaching for the core modules, and lead the multivariate methods connector
+course.
 
-His main research interest has been the development of models of brain function and, for this purpose, the development of quantitative markers of brain function using imaging (MRI, PET, EEG). His work, mostly on technical mathematical statistical methods and their applications, has resulted in more than 200 papers and is highly cited (>18,000 citations, H-index = 68, Google Scholar). Current interests are built on the use of Complexity Science to understand brain function and its disorders and he is module leader and lecturer of the 3rd Year Module Complexity and Psychiatric Disorders of the new BSc in Neuroscience and Psychology at KCL.
+**Brenda Williams** (10%) is deputy head of Department of Education for Basic
+and Clinical Neuroscience, at the institute of Psychology, Psychology and
+Neuroscience (IoPPN), and the Faculty Assessment and Feedback lead. She
+pioneered the introduction of distance learning at the IoPPN and is now
+Programme Lead for two highly successful online MSc programmes: Applied
+Neuroscience and the Psychology and Neuroscience of Mental Health.  She has
+extensive experience in online and distance learning, and is passionate about
+inclusive education and student engagement.  She will work all courses to
+review and optimize materials, and will lead development of the online
+learning experience.
 
-FT has been teaching statistics (both introductory and advanced topics) to undergraduate and graduate students in the Faculty of Medicine for more than 20 years, his courses have been very popular and resulted in the publication of the book “Statistics without equations” that has been extremely well received by readers. For the last 3 years he has focused is teaching workload on the Distant Learning MSc Programme at the Institute of Psychiatry, Psychology and Neuroscience that now enrols more than 1,000 students where he is module-leader for Neuroimaging and regularly acts as supervisor for >15 students at a time.
-
-Besides his academic work, FT has been working as a consultant with industries (pharma, finance, marketing) in developing quantitative tools and analytics to support their business development.
-
-FT is very familiar with computational approaches to statistical analytics having published in this area. In this programme FT will be responsible for the coding-to-teach modules that relate to multivariate analysis that will be structured by first introduce the basic computational approaches that allow the creation of multivariate probability distributions. Beyond that, the programme will then move towards the computational approaches to standard ANOVA and ANCOVAs models and conclude with an advanced part on repeated measures and mixed model approach. All the above will be carried out through a deconstruction approach that will build code for these apparently complex analytics into understandable tools via simple elementary steps.
-
-**Brenda Williams** (10%) time is a neuroscientist with a passion for inclusive education. As deputy head of Department of Education for Basic and Clinical Neuroscience, institute of Psychology, Psychology and Neuroscience (IoPPN), and the Faculty Assessment and Feedback lead, she engages with colleagues and students to integrate and promote innovative neuroscience education and to help shape digital education at both Faculty and College level. She pioneered the introduction of distance learning at the IoPPN and is now Programme Lead for two highly successful online MSc programmes: Applied Neuroscience and the Psychology and Neuroscience of Mental Health.
-
-Research Skills are a crucial element of every MSc programmes and Brenda and her team have created a range of materials to teach and evaluate such skills. Working in the online environment also brings with it the challenge of engaging students, developing a community of learners and engendering a feeling of belonging. She will use her experience in these areas to support the development and implementation of the training in reproducible data science presented in this application.
-
-Brenda also has experience of working with a range of stakeholders to meet project deadlines. The development of the distance learning MSc programmes required liaising with design and development staff, Academic Records, programme administrators, academics (\> 100) and teaching fellows to manage expectations and to deliver excellent teaching materials. This network she had built across the IoPPN will be pivotal in helping to grow the community of contribution described in the application. Brenda will also provide access to a distinct online student body. These students come from diverse backgrounds and from across the world, many
-
-**Robert Leech**
-
-Robert Leech is Professor of Neuroimaging Analytics at King’s College London, in the Department of Neuroimaging at the Institute of Psychiatry, Psychology and Neuroscience.  His research has focused on developing and applying neuroimaging methodologies to better understand the relationship between brain and behaviour. His work is inherently multi-disciplinary, with collaborations across disciplines including computer scientists, machine learning experts, cognitive psychologists, clinicians, bioengineers and physicists. 
-His research has involved working with many programming languages (including Python/R/C/C++/C#/Matlab) for data analysis. His work also involves combining behavioural and neuroimaging data with sophisticated visualisation software; he has extensively used both 3D modelling and 3D gaming software, in a range of research contexts, including simulating brain-environment interactions and most recently for the online delivery of a gamified battery of cognitive tasks for assessment of autism. In the context of reproducible data science, his work has involved developing automated machine learning approaches for data exploration/inference and prediction as well as theoretical work demonstrating how these approaches can improve the reproducibility of scientific findings. He was also an editor for the journal Neuroimage’s special section on reproducible neuroimaging. 
-His teaching has been heavily inspired by the coding-to-learn philosophy, teaching coding and data analysis to primarily postgraduate students in the context of cognitive psychology and neuroscience for >10 years. At King’s College London he is the module lead for neuroimaging for the applied biostatistics MSc and will be the module lead for computational neuroscience and machine learning in the new BSc in Psychology and Neuroscience. Prior to joining King’s College London, he was modulate co-lead for the MSc in Translational Neuroscience Neuroimaging module; this was a coding-to-learn module delivered online and in person, where students were gradually introduced to the main concepts in neuroimaging analysis and visualisation from the ground up, through coding. 
+**Robert Leech** (10%) is Professor of Neuroimaging Analytics at KCL. His research has focused on developing and applying neuroimaging methodologies to understand the relationship between brain and behaviour. His work is inherently multi-disciplinary, with collaborations across disciplines including computer scientists, machine learning experts, cognitive psychologists, clinicians, bioengineers and physicists.  He has used
+many programming languages (including Python and R) for data analysis.
+Has has developed automated machine learning approaches for data
+exploration/inference and prediction as well as theoretical work demonstrating
+how these approaches can improve the reproducibility of scientific findings.
+He was also an editor for the journal Neuroimage’s special section on
+reproducible neuroimaging. His teaching has been heavily inspired by the
+coding-to-learn philosophy, teaching coding and data analysis to cognitive
+psychology and neuroscience PG students for >10 years. He is module lead for
+neuroimaging for the applied biostatistics MSc and will be the module lead for
+computational neuroscience and machine learning in the new BSc in Psychology
+and Neuroscience.  He will contribute material and teach on the core courses,
+and on the multivariate analysis connector course.  He will also work on
+development of the hosting, including customization of the Open edX machinery.
