@@ -15,34 +15,74 @@
 \usepackage{fontspec}
 \setmainfont{Arial}
 
-\usepackage[margin=2cm]{geometry}
+\usepackage[margin=2cm, landscape]{geometry}
 \usepackage{pgfgantt}
 
 \begin{document}
 
+
+% MS 1 = initial integration -> Feb April 2021
+% MS 2 = extend integration -> April 2021
+% MS 3 = commoditization -> June 2021 - September 2021
+% MS 4 = refinement -> September 2021 -> April 2022
+
 \begin{ganttchart}[
     vgrid,
-    x unit=5.5mm,
+    hgrid,
+    x unit=8mm,
     y unit chart=7mm,
     y unit title=10mm,
     time slot format=isodate,
     time slot unit=month,
+    newline shortcut=true,
     ]{2021-02-14}{2023-02-13}
-    \gantttitlecalendar{year, month} \\
-    \ganttbar[name=collate]{FoDS materials}{2021-02-14}{2023-02-13} \ganttnewline
-    \ganttbar[name=collate]{RDS materials}{2021-04-14}{2023-02-13} \ganttnewline
-    %\ganttlinkedbar{Task 2}{2021-07-01}{2022-04-06} \ganttnewline
-    \ganttbar{3x FoDS 2DWS}{2021-05-14}{2021-06-30} \ganttnewline
-    \ganttbar{3x RDS 2DWS}{2021-07-14}{2021-08-30} \ganttnewline
-    \ganttbar{FoDS 2WSS}{2021-09-06}{2021-09-17} \ganttnewline
-    \ganttbar{FoDS 10WFSC}{2022-01-31}{2022-04-07} \ganttnewline
-    \ganttbar{3x FoDS 2DWS}{2022-05-14}{2022-06-30} \ganttnewline
-    \ganttbar{RSS 2WSS}{2022-07-06}{2022-07-17} \ganttnewline
-    \ganttbar{FoDS 2WSS}{2022-07-06}{2022-07-17} \ganttnewline
-    \ganttbar{CC-Prob 2WSS}{2022-08-01}{2022-08-12} \ganttnewline
-    \ganttbar{CC-MV 2WSS}{2022-09-01}{2022-09-12} \ganttnewline
-    \ganttbar{CC-CSS 2WSS}{2022-09-18}{2022-09-30} \ganttnewline
-    % \ganttlink{st1}{st2}
+    \gantttitlecalendar{year, month=shortname} \\
+    \ganttbar{Setup, collate}{2021-02-14}{2021-05-13} \\
+    \ganttbar{Jupyter/edX pass 1}{2021-02-14}{2021-04-13} \\
+    \ganttbar{Jupyter/edX integ.}{2021-04-15}{2021-06-13} \\
+    \ganttbar{1-click edX/Jupyter}{2021-06-15}{2021-10-13} \\
+    \ganttbar{Refine course host.}{2021-11-01}{2023-02-13} \\
+    \ganttbar{Jupyter hosting}{2021-05-14}{2023-02-13} \\
+    \ganttbar{Open edX hosting}{2021-08-01}{2023-02-13} \\
+    \ganttbar{FoDS 2DWS}{2021-05-14}{2021-06-30}
+    \ganttbar{}{2022-01-05}{2022-01-30}
+    \ganttbar{}{2022-05-14}{2022-06-30}
+    \ganttbar{}{2023-01-05}{2023-01-30}
+    \\
+    \ganttbar{RDS 2DWS}{2021-07-14}{2021-07-16}
+    \ganttbar{}{2022-05-14}{2022-06-30}
+    \\
+    \ganttbar{FoDS 2WSS}{2021-08-01}{2021-08-14}
+    \ganttbar{}{2022-08-01}{2022-08-14}
+    \ganttbar{}{2022-01-05}{2022-01-14}
+    \\
+    \ganttbar{FoDS 10WFSC}{2021-10-01}{2021-12-05}
+    \ganttbar{}{2022-01-30}{2022-04-08}
+    \ganttbar{}{2022-10-01}{2022-12-05}
+    \\
+    \ganttbar{RDS 2WSS}{2021-09-01}{2021-09-14}
+    \ganttbar{}{2022-09-01}{2022-09-14}
+    \\
+    \ganttbar{RDS 10WFSC}{2022-01-30}{2022-04-08}
+    \ganttbar{}{2022-10-01}{2022-12-05}
+    \\
+    \ganttbar{CC-prob 2WSS}{2021-09-01}{2021-09-14}
+    \ganttbar{}{2022-09-01}{2022-09-14}
+    \\
+    \ganttbar{CC-prob 10WFSC}{2022-01-30}{2022-04-08}
+    \ganttbar{}{2022-10-01}{2022-12-05}
+    \\
+    \ganttbar{CC-MV 2WSS}{2021-09-01}{2021-09-14}
+    \ganttbar{}{2022-09-01}{2022-09-14}
+    \\
+    \ganttbar{CC-MV 10WFSC}{2022-01-30}{2022-04-08}
+    \ganttbar{}{2022-10-01}{2022-12-05}
+    \\
+    \ganttbar{CC-CSS 2WSS}{2021-09-01}{2021-09-14}
+    \ganttbar{}{2022-09-01}{2022-09-14}
+    \\
+    \ganttbar{CC-CSS 10WFSC}{2022-01-30}{2022-04-08}
+    \ganttbar{}{2022-10-01}{2022-12-05}
 
 \end{ganttchart}
 
