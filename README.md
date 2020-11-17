@@ -18,8 +18,6 @@ is directly from the guidance document above.
 
 Fields in Je-S document, again from document above:
 
-*   **Project title** (150-character limit); This should reflect the aim of the
-    proposal.
 *   **Summary** (4000-character limit); Provide a plain English (layperson’s)
     summary of the proposed work, explaining the aims and objectives of the
     proposal, rational for the proposed project and the potential applications
