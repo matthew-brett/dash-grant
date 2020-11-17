@@ -80,7 +80,7 @@ and process that result will accelerate our ability to teach reproducible data
 science, and form the basis for a wide and lasting collaboration.
 
 **Background**: Data science is an approach to data analysis with a foundation
-in code and algorithms [^cfd-what-is].  It is not new; rather it is
+in code and algorithms [^cfd-what-is].  It is
 a recognition of the central role that code has played in data analysis since
 computing became widely available [@donoho201550]. The insight of data science
 is that code is comparable to bench skills and lab notebooks in wet-lab
@@ -113,7 +113,7 @@ Data science teaching therefore contains three fundamental ideas:
    fundamental objects for data analysis such as arrays and data tables, and
    proceed to data selection and visualization.
 1. **code-to-learn**; the traditional approach to code is to teach
-   "programming" in a separate advanced course -- "learning-to-code". Data
+   "programming" in a separate advanced course ("learning-to-code"). Data
    science uses code as the basis to explain and implement the algorithms of
    inference and prediction, including machine learning ("code-to-learn").
 1. **code-for-reproducibility**; taking code seriously involves careful
@@ -123,15 +123,15 @@ Data science teaching therefore contains three fundamental ideas:
    great impact in increasing efficiency, reducing error and supporting
    collaboration, and for these reasons, is all but universal in industry and
    open-source. OCP includes version control; standardized data organization
-   and verification; code review; contribution and issue tracking; and
-   continuous integration testing.  Although typically considered advanced, we
-   have shown that we can teach these methods successfully to undergraduates
-   in a single-semester course [@millman2018rcsds].
+   and verification; code review; documentation; contribution and issue
+   tracking; and continuous integration testing.  Although typically
+   considered advanced, we have shown that we can teach these methods
+   successfully to undergraduates in a single-semester course
+   [@millman2018rcsds].
 
 **Need and challenge**: Data science teaching promises great increase in
 research productivity and reproducibility --- but the field is very new, and
-there are very few teachers with enough experience and skills to use them, and
-even fewer who are yet in a position to build new courses.  It seems obvious
+there are very few teachers with enough experience and skills to teach data science, or to build new courses.  It seems obvious
 that we will get further, more quickly, if this small community learns how to
 share work, but this is more difficult than it may seem. It is common for
 teachers to make their materials available for free online, but uncommon for
@@ -185,9 +185,9 @@ Berkeley's materials --- a risk that most contributors will not accept.
 
 Common ownership implies vendor independence.  It must be demonstrably
 impossible for any company or group of companies to withhold a contributor's
-right to effectively their work.  Therefore, the machinery to deploy these
-materials must work on any system, including the contributor's own desktop
-computer.
+right to effectively publish their work.  Therefore, the machinery to deploy
+these materials must work on any system, including the contributor's own
+desktop computer.
 
 Rapid iteration is an essential engine for continuous improvement.  It must be
 simple to build and deploy these teaching materials in a form from which we
@@ -213,7 +213,7 @@ environment (VLE), that supports blended learning with a combination of video
 and live instruction.  Open edX has extensive mechanisms for customization.
 
 **Objectives**: We will seed and grow the community of contribution by
-applying open-source methods and process.  Community and process develops by
+applying open-source methods and process.  Community and process develop by
 shared work, and reflection on that work.  We will use rapid iteration to
 support that process.
 
@@ -223,7 +223,7 @@ each version. These are: two-day introductory workshop (2DWS); two-week summer
 school (2WSS); 10 week full semester course (10WFSC); a full video and live
 online blended version of the 10 week course, within a VLE (10WBFSC). We will
 start with the 2DWS version of the course, then build the 2WSS, then the
-10WFSC and finally the 10BWFSC.  See the Gantt chart for timelines.
+10WFSC and finally the 10WBFSC.  See the Gantt chart for timelines.
 
 Our course *types* are:
 
@@ -236,7 +236,7 @@ Our course *types* are:
    simulation, resampling, and permutation.  If time allows, we teach the
    bootstrap for confidence intervals, line fitting for regression and
    correlation using numerical optimization, extension of line fitting to
-   multiple regression, an introduction to Bayesian analysis; using model for
+   multiple regression, an introduction to Bayesian analysis; models for
    prediction and basic machine learning. Seed materials start with our
    existing data science courses [^cfd2020], inspired in turn by Berkeley's
    foundation course [^data8].  We use a wide range of data for the analysis
@@ -261,8 +261,8 @@ Our course *types* are:
    developing more mathematical understanding.  The second is an extended
    treatment of statistical analysis, with a basis in resampling. It will
    cover multiple hypothesis testing, multi-factor ANOVA designs, and
-   extensions of ANOVA models.  The third will be a application of foundation
-   methods to computational social science.
+   extensions of ANOVA models.  The third will be an application of
+   foundational methods to computational social science.
 
 See the Gantt chart for timing of each course version and type.
 
@@ -313,22 +313,22 @@ sustainability of the training resources?  ~1 page.
 See *Team and Management* below for our process for learning from course
 iteration.
 
-We have two target audiences for our work.  The first is teachers.  The second
-is junior researchers (PhD students and post-docs).
+The audience for our work is researchers, both senior and junior, but, in
+order to reach a wide range of researchers, and build a community of practice,
+we also need to recruit teachers.  Recruiting teachers allows us to take full
+advantage of our open-source model. Teachers will test our material,
+documentation, and deployment tools; some will adapt, improve and extend our
+materials.
 
-We need to recruit teachers in order to make our open-source model work to its
-maximum effect. Teachers will test our material, documentation, and deployment
-tools; some will adapt, improve and extend our materials.
-
-In order to recruit the broadest range of teachers, we will run local versions
-of each version of our 2DWS courses that rotate between the four home centres
-of our investigators: Birmingham, King's College, Cape Town, Essex. The 2DWS
-courses include an introduction to using our open materials, process and
-deployment methods. The 2DWSs will be open to any researcher, but we will
-advertise locally first, to build personal connections within the
-home university and aim for critical mass committed to data science teaching.
-In the second year of the grant we will run local versions of these workshops
-in other interested universities, identified with a combination of personal
+To engage the broadest range of teachers, we will run local, but initially
+virtual, versions of each version of our 2DWS courses that rotate between the
+four home centres of our investigators: Birmingham, King's College, Cape Town,
+Essex. The 2DWS courses include an introduction to using our open materials,
+process and deployment methods. The 2DWSs will be open to any researcher, but
+we will advertise locally first, to build personal connections within the home
+university and aim for critical mass committed to data science teaching. In
+the second year of the grant we will run local versions of these workshops in
+other interested universities, identified with a combination of personal
 contacts, outside students from our previous courses, and advertising on
 various channels including statistics / data science teaching mailing lists,
 Slack groups, and Turing Institute newsletters.
@@ -349,7 +349,7 @@ available, and we will use these to attract more students.
 We believe that reproducible data science is the foundation for all
 sound data analysis, so we want to teach it to all researchers, not just those
 with a prior interest in code.  We will use our 2DWS and other outreach to
-show how these courses do work for students with no prior experience
+show that our courses work for researcher with no prior experience
 or interest in programming.  We will monitor our recruitment, to make sure we
 are getting a representative cross-section of researchers, and adjust
 recruitment and in-course support if we find we are getting a lower proportion
@@ -361,9 +361,9 @@ Our proposal includes funding for a post-doctoral fellow.  Our primary
 intention here is to train the post-doc in building and using these teaching
 methods.  They will also get experience of teaching other teachers.  We hope
 that this post will evolve into a permanent post that may involve both
-teaching and research, in either of our two main applicant groups, or
-elsewhere.  We expect this teacher will continue to support and expand the
-community.
+teaching and data science research, in either of our two main applicant
+groups, or elsewhere.  We expect the post-holder will continue to support and
+expand the community.
 
 ## Value and Impact
 
@@ -379,10 +379,10 @@ substantial time from the very small number of teachers who have extensive
 experience of teaching data science to life-scientists.  By doing this, we
 hope to seed a community that can build and expand on this teaching
 experience, that is currently very rare.  We have also selected teachers who
-have extensive experience of running distance learning courses in
-life-sciences, to guide our use of learning environments, and improve our
-interactions with students.  In this way we hope to make the best possible
-combination of experience to build balanced, well-designed courses in this new
+have great experience of running distance learning courses in life-sciences,
+to guide our use of learning environments, and improve our interactions with
+students.  We designed our team to give the best possible combination of
+experience in order to build balanced, well-designed courses in this new
 field.
 
 Our development and consulting resources are to support the community of
@@ -422,9 +422,10 @@ order to refine working process for building and deploying materials, and
 feeding back to the development consultant team. For four weeks prior to the
 course to one week following we will have a weekly short review meeting, and
 thrice weekly 30 minute stand-up meetings to feed back on progress and
-obstacles.  We will follow each course by a team meeting at which the team
-leader presents and discusses a ~2 page report discussing success and failure,
-and proposals for improving our process, and the next course.
+obstacles.  We will collect student feedback after each course, and follow up
+with a team meeting at which the team leader presents and discusses a ~2 page
+report discussing success and failure, and proposals for improving our
+process, and the next course.
 
 We will record bugs, errors in documentation or desirable features using the usual Github / version control features.
 
